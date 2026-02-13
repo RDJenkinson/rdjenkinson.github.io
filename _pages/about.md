@@ -13,5 +13,3 @@ I am a postdoctoral researcher studying theoretical physics. My research interes
 - Quantum Field Theory in curved spacetime
 - The Unruh effect
 - Black holes and Hawking radiation
-
-Update homepage content
