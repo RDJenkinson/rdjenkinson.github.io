@@ -11,10 +11,11 @@ author_profile: false
 <section class="hero">
   <div class="hero__text">
     <p class="hero__eyebrow">Theoretical physicist · Postdoctoral researcher</p>
-    <h1 class="hero__title">Quantum fields, black holes, and the information they keep.</h1>
+    <h1 class="hero__title">Quantum information, field theory, and the future of quantum technologies.</h1>
     <p class="hero__subtitle">
-      I study how quantum information behaves in extreme space‑time settings – from curved backgrounds and
-      the Unruh effect to black holes and Hawking radiation – with an eye on what we can simulate on real‑world qubit devices.
+      I study quantum information theory and quantum field theory, exploring how fundamental physics connects to quantum computing. 
+      My research spans qubit simulations of quantum field theory, causality in QFT, and quantum information in curved spacetime – 
+      bridging theoretical foundations with practical quantum technologies.
     </p>
 
     <div class="hero__actions">
@@ -29,27 +30,53 @@ author_profile: false
     <div class="hero-social">
       <a class="btn-pill" href="mailto:ross.jenkinson@manchester.ac.uk">
         <i class="fa-solid fa-envelope"></i>
-        <span>Email</span>
+        <span>Academic Email</span>
       </a>
-      {% if site.author.googlescholar %}
-      <a class="btn-pill" href="{{ site.author.googlescholar }}">
-        <i class="ai ai-google-scholar"></i>
-        <span>Google Scholar</span>
+      <a class="btn-pill" href="mailto:rjenkinson@outlook.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Personal Email</span>
+      </a>
+      {% if site.author.inspire-hep %}
+      <a class="btn-pill" href="{{ site.author.inspire-hep }}" target="_blank" rel="noopener">
+        <i class="ai ai-inspire"></i>
+        <span>InspireHEP</span>
       </a>
       {% endif %}
-      <a class="btn-pill" href="https://github.com/your-github-handle" target="_blank" rel="noopener">
+      {% if site.author.orcid %}
+      <a class="btn-pill" href="{{ site.author.orcid }}" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+        <span>ORCID</span>
+      </a>
+      {% endif %}
+      {% if site.author.github %}
+      <a class="btn-pill" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
         <i class="fa-brands fa-github"></i>
         <span>GitHub</span>
       </a>
-      <a class="btn-pill" href="https://linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener">
+      {% endif %}
+      {% if site.author.linkedin %}
+      <a class="btn-pill" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">
         <i class="fa-brands fa-linkedin"></i>
         <span>LinkedIn</span>
       </a>
+      {% endif %}
+      {% if site.author.twitter %}
+      <a class="btn-pill" href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener">
+        <i class="fa-brands fa-x-twitter"></i>
+        <span>X</span>
+      </a>
+      {% endif %}
+      {% if site.author.instagram %}
+      <a class="btn-pill" href="https://instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+      {% endif %}
     </div>
   </div>
 
   <div class="hero__photo">
-    <img src="{{ base_path }}/images/bio-photo.jpg" alt="Photo of Ross Jenkinson" loading="lazy">
+    <img src="{{ base_path }}/images/photo1.jpg" alt="Photo of Ross Jenkinson" loading="lazy">
   </div>
 </section>
 
@@ -70,15 +97,6 @@ author_profile: false
       links to arXiv and journal versions where available.
     </p>
     <a class="section-link" href="{{ base_path }}/publications/">Browse publications</a>
-  </article>
-
-  <article class="section-card">
-    <h2>Talks</h2>
-    <p>
-      Slides and abstracts from invited talks, seminars, and conference presentations on quantum
-      information in relativistic settings.
-    </p>
-    <a class="section-link" href="{{ base_path }}/talks/">See recent talks</a>
   </article>
 
   <article class="section-card">

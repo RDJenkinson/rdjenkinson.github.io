@@ -23,25 +23,26 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo1.jpg"
   name             : "Ross Jenkinson"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Theoretical physicist studying quantum information, quantum field theory, and their applications to quantum technologies."
   location         : "Manchester"
   employer         : "University of Manchester"
   uri              : # URL
-  email            : "ross.jenkinson@manchester.ac.uk" 
+  email            : "ross.jenkinson@manchester.ac.uk"
+  email_personal   : "rjenkinson@outlook.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
+  googlescholar    : # Removed - using InspireHEP instead
+  inspire-hep      : "https://inspirehep.net/authors/2830447"
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-3199-6704"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # Removed
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,22 +52,22 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "RDJenkinson"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Removed
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "ross_jenkinson"
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "r-jenkinson"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +75,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "_RossJenkinson"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
