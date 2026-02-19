@@ -30,11 +30,6 @@
       </div>
       {% endif %}
       
-      {% if cv.basics.phone %}
-      <div class="cv-contact-item">
-        <i class="fas fa-phone"></i> {{ cv.basics.phone }}
-      </div>
-      {% endif %}
       
       {% if cv.basics.website %}
       <div class="cv-contact-item">
@@ -77,12 +72,12 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-date">{{ education.startDate }}{% if education.endDate %} – {{ education.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
-          {% if education.gpa %}
-          <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
+          {% if education.honours %}
+          <div class="cv-item-detail">{{ education.honours }}</div>
           {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
@@ -105,7 +100,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} – {{ work.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ work.company }}</div>
@@ -154,7 +149,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ publication.name }}</div>
-          <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
+          <div class="cv-item-date">{{ publication.releaseDate }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
@@ -245,42 +240,6 @@
           <div class="cv-item-detail">
             <a href="{{ item.url }}" target="_blank">View Project</a>
           </div>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
-  {% if cv.languages.size > 0 %}
-  <!-- Languages -->
-  <div class="cv-section">
-    <h2>Languages</h2>
-    <ul class="cv-list">
-      {% for language in cv.languages %}
-      <li class="cv-item">
-        <div class="cv-item-content">
-          <div class="cv-item-title">{{ language.language }}</div>
-          <div class="cv-item-detail">{{ language.fluency }}</div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
-  {% if cv.interests.size > 0 %}
-  <!-- Interests -->
-  <div class="cv-section">
-    <h2>Interests</h2>
-    <ul class="cv-list">
-      {% for interest in cv.interests %}
-      <li class="cv-item">
-        <div class="cv-item-content">
-          <div class="cv-item-title">{{ interest.name }}</div>
-          {% if interest.keywords.size > 0 %}
-          <div class="cv-item-detail">{{ interest.keywords | join: ", " }}</div>
           {% endif %}
         </div>
       </li>

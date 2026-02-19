@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ross Jenkinson",
     "email": "ross.jenkinson@manchester.ac.uk",
-    "phone": "+44 7944 433741",
+    "phone": "",
     "website": "https://rossjenkinson.com",
     "summary": "Theoretical physicist studying quantum information, quantum field theory, and their applications to quantum technologies. Completed PhD under supervision of Prof. Brian Cox and Prof. Jeff Forshaw.",
     "location": {
@@ -13,31 +13,11 @@
       "region": ""
     },
     "profiles": [
-      {
-        "network": "InspireHEP",
-        "username": "",
-        "url": "https://inspirehep.net/authors/2830447"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/0000-0003-3199-6704"
-      },
-      {
-        "network": "GitHub",
-        "username": "RDJenkinson",
-        "url": "https://github.com/RDJenkinson"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "r-jenkinson",
-        "url": "https://www.linkedin.com/in/r-jenkinson"
-      },
-      {
-        "network": "X",
-        "username": "_RossJenkinson",
-        "url": "https://x.com/_RossJenkinson"
-      }
+      {"network": "InspireHEP", "username": "", "url": "https://inspirehep.net/authors/2830447"},
+      {"network": "ORCID", "username": "", "url": "https://orcid.org/0000-0003-3199-6704"},
+      {"network": "GitHub", "username": "RDJenkinson", "url": "https://github.com/RDJenkinson"},
+      {"network": "LinkedIn", "username": "r-jenkinson", "url": "https://www.linkedin.com/in/r-jenkinson"},
+      {"network": "X", "username": "_RossJenkinson", "url": "https://x.com/_RossJenkinson"}
     ]
   },
   "work": [
@@ -45,7 +25,7 @@
       "company": "University of Manchester",
       "position": "Postdoctoral Researcher",
       "website": "",
-      "startDate": "2025-03",
+      "startDate": "Jan 2026",
       "endDate": "",
       "summary": "Continuing research in theoretical physics, focusing on quantum information theory and quantum field theory applications to quantum technologies.",
       "highlights": [
@@ -58,8 +38,8 @@
       "company": "University of Manchester",
       "position": "PhD Student",
       "website": "",
-      "startDate": "2021-09",
-      "endDate": "2025-03",
+      "startDate": "Sep 2021",
+      "endDate": "Mar 2025",
       "summary": "Completed PhD in Theoretical Particle Physics under supervision of Prof. Brian Cox and Prof. Jeff Forshaw.",
       "highlights": [
         "Developed manifestly causal approaches to quantum field theory",
@@ -72,8 +52,8 @@
       "company": "NatWest",
       "position": "Technology Summer Intern",
       "website": "",
-      "startDate": "2019-06",
-      "endDate": "2019-08",
+      "startDate": "Jun 2019",
+      "endDate": "Aug 2019",
       "summary": "Software development internship in financial technology.",
       "highlights": [
         "Programmed working call centre using AWS and Python",
@@ -87,186 +67,77 @@
       "institution": "University of Manchester",
       "area": "PhD in Theoretical Particle Physics",
       "studyType": "PhD",
-      "startDate": "2021-09",
-      "endDate": "2025-03",
-      "gpa": null,
-      "courses": [
-        "Quantum Field Theory",
-        "Quantum Information Theory",
-        "General Relativity",
-        "Black Hole Physics",
-        "Quantum Computing"
-      ]
+      "startDate": "Sep 2021",
+      "endDate": "Mar 2025",
+      "honours": null,
+      "courses": ["Quantum Field Theory", "Quantum Information Theory", "General Relativity", "Black Hole Physics", "Quantum Computing"]
     },
     {
       "institution": "University of Oxford",
-      "area": "Master of Physics (MPhys) - First Class, Quantum Computing",
+      "area": "Master of Physics (MPhys) – First Class, Quantum Computing",
       "studyType": "MPhys",
-      "startDate": "2017-10",
-      "endDate": "2021-08",
-      "gpa": "First Class",
-      "courses": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Mathematical Physics",
-        "Statistical Physics"
-      ]
+      "startDate": "Oct 2017",
+      "endDate": "Aug 2021",
+      "honours": "First Class",
+      "courses": ["Quantum Mechanics", "Quantum Computing", "Mathematical Physics", "Statistical Physics"]
     },
     {
       "institution": "Wilmslow High School",
       "area": "GCE Advanced Level Qualifications",
       "studyType": "A Levels",
-      "startDate": "2015-09",
-      "endDate": "2017-07",
-      "gpa": null,
-      "courses": [
-        "Physics (A*)",
-        "Mathematics (A*)",
-        "Further Mathematics (A*)",
-        "Chemistry (A*)"
-      ]
+      "startDate": "Sep 2015",
+      "endDate": "Jul 2017",
+      "honours": null,
+      "courses": ["Physics (A*)", "Mathematics (A*)", "Further Mathematics (A*)", "Chemistry (A*)"]
     }
   ],
   "skills": [
     {
       "name": "Research",
       "level": "Expert",
-      "keywords": [
-        "Quantum Field Theory",
-        "Quantum Information Theory",
-        "Theoretical Physics",
-        "Mathematical Physics",
-        "Research Methodology"
-      ]
+      "keywords": ["Quantum Field Theory", "Quantum Information Theory", "Theoretical Physics", "Mathematical Physics", "Research Methodology"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Mathematica",
-        "FORM",
-        "MATLAB",
-        "R",
-        "C"
-      ]
+      "keywords": ["Python", "Mathematica", "FORM", "MATLAB", "R", "C", "AWS"]
     },
     {
       "name": "Teaching & Communication",
       "level": "Expert",
-      "keywords": [
-        "Public Speaking",
-        "Science Communication",
-        "Teaching",
-        "Presentation Design",
-        "Outreach"
-      ]
-    },
-    {
-      "name": "Data Analysis",
-      "level": "Advanced",
-      "keywords": [
-        "Data Analysis",
-        "Simulation",
-        "Statistical Analysis",
-        "AWS"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Sports",
-      "keywords": [
-        "Football",
-        "Padel",
-        "Pool",
-        "Manchester United"
-      ]
-    },
-    {
-      "name": "Games & Strategy",
-      "keywords": [
-        "Fantasy Premier League",
-        "Poker",
-        "Strategic Analysis"
-      ]
-    },
-    {
-      "name": "Science Communication",
-      "keywords": [
-        "Public Engagement",
-        "Outreach",
-        "Science Writing"
-      ]
+      "keywords": ["Public Speaking", "Science Communication", "Teaching", "Presentation Design", "Outreach"]
     }
   ],
   "references": [],
   "publications": [
     {
       "name": "A Manifestly Causal Approach to Quantum Field Theory",
-      "publisher": "University of Manchester",
-      "releaseDate": "2025-03-01",
-      "website": "https://inspirehep.net/authors/2830447",
-      "summary": "PhD Thesis: Developing probability-level formalisms for quantum field theory calculations with applications to the Unruh effect and black hole physics."
+      "publisher": "University of Manchester (PhD Thesis)",
+      "releaseDate": "Dec 2025",
+      "website": "https://arxiv.org/abs/2512.20555",
+      "summary": "PhD Thesis: Developing probability-level formalisms for QFT calculations with applications to the Unruh effect and black hole physics. Author: Ross Jenkinson."
     },
     {
-      "name": "Qubit Simulations of Quantum Field Theory: A Causality-Preserving Approach",
-      "publisher": "Classical and Quantum Gravity",
-      "releaseDate": "2024-12-01",
-      "website": "https://inspirehep.net/authors/2830447",
-      "summary": "Framework for simulating QFT processes on quantum computers using manifestly causal probability-level formalisms."
-    },
-    {
-      "name": "The Unruh Effect in a Manifestly Causal Framework",
+      "name": "Toward a manifestly causal approach to particle scattering",
       "publisher": "Physical Review D",
-      "releaseDate": "2024-06-01",
-      "website": "https://inspirehep.net/authors/2830447",
-      "summary": "Study of the Unruh effect using manifestly causal probability-level formalisms."
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.1103/pmxm-q4rj",
+      "summary": "Probability-level formalism for particle scattering in scalar field theory. Authors: Robert Dickinson, Jeff Forshaw, Ross Jenkinson, Peter Millington."
     },
     {
-      "name": "Quantum Information in Black Hole Spacetimes: A Causal Perspective",
+      "name": "A new study of the Unruh effect",
       "publisher": "Classical and Quantum Gravity",
-      "releaseDate": "2023-09-01",
-      "website": "https://inspirehep.net/authors/2830447",
-      "summary": "Exploration of quantum information theory in black hole backgrounds using manifestly causal approaches."
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.1088/1361-6382/ad9c12",
+      "summary": "Revisiting the Unruh effect using probability-level calculations. Authors: Robert Dickinson, Jeff Forshaw, Ross Jenkinson, Peter Millington."
     }
   ],
   "presentations": [],
   "teaching": [
-    {
-      "course": "First Year Tutorials",
-      "institution": "University of Manchester",
-      "date": "2021-2025",
-      "role": "Tutor",
-      "description": "Teaching fundamental physics concepts to first-year undergraduate students."
-    },
-    {
-      "course": "Second Year Python Programming",
-      "institution": "University of Manchester",
-      "date": "2021-2025",
-      "role": "Instructor",
-      "description": "Teaching Python programming for physics applications."
-    },
-    {
-      "course": "Third Year Examples Classes",
-      "institution": "University of Manchester",
-      "date": "2021-2025",
-      "role": "Tutor",
-      "description": "Advanced problem-solving sessions for third-year physics students."
-    },
-    {
-      "course": "SEREN Tutoring",
-      "institution": "SEREN",
-      "date": "",
-      "role": "Tutor",
-      "description": "Supporting excellence in research education."
-    }
+    {"course": "First Year Tutorials", "institution": "University of Manchester", "date": "2021–2025", "role": "Tutor", "description": "Teaching fundamental physics concepts to first-year undergraduate students."},
+    {"course": "Second Year Python Programming", "institution": "University of Manchester", "date": "2021–2025", "role": "Instructor", "description": "Teaching Python programming for physics applications."},
+    {"course": "Third Year Examples Classes", "institution": "University of Manchester", "date": "2021–2025", "role": "Tutor", "description": "Advanced problem-solving sessions for third-year physics students."},
+    {"course": "Seren Tutoring", "institution": "Seren (Wales' flagship HE access programme)", "date": "", "role": "Tutor", "description": "Supporting Wales' brightest learners through widening access to higher education."}
   ],
   "portfolio": []
 }

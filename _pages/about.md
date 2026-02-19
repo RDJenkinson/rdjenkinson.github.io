@@ -6,11 +6,13 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="{{ base_path }}/images/photo2.jpg" alt="Ross Jenkinson" style="width: 300px; max-width: 100%; border-radius: 50%; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+<div class="about-photos">
+  <img src="{{ base_path }}/images/photo2.jpg" alt="Ross Jenkinson" class="about-photo about-photo--main">
+  <img src="{{ base_path }}/images/photo3.jpg" alt="Ross Jenkinson" class="about-photo about-photo--secondary">
+  <img src="{{ base_path }}/images/photo4.jpg" alt="Ross Jenkinson" class="about-photo about-photo--tertiary">
 </div>
 
-I am a postdoctoral researcher in theoretical physics at the University of Manchester, where I completed my PhD under the supervision of Prof. Brian Cox and Prof. Jeff Forshaw. My research sits at the intersection of quantum information theory, quantum field theory, and quantum technologies – exploring how fundamental physics principles can inform and be simulated on quantum computers.
+I am a postdoctoral researcher in theoretical physics at the University of Manchester, where I completed my PhD under the supervision of Prof. Brian Cox and Prof. Jeff Forshaw. I did my undergraduate degree at the University of Oxford, where I specialised in quantum information and particle physics before moving to Manchester for my doctoral research. My work sits at the intersection of quantum information theory, quantum field theory, and quantum technologies – exploring how fundamental physics principles can inform and be simulated on quantum computers.
 
 ## Research
 
@@ -22,17 +24,17 @@ My work focuses on understanding quantum information in relativistic settings an
 - **The Unruh effect**: Investigating how accelerated observers perceive quantum fields
 - **Black holes and Hawking radiation**: Studying quantum information in black hole spacetimes
 
-My PhD thesis, "A Manifestly Causal Approach to Quantum Field Theory," developed new probability-level formalisms for QFT calculations and explored applications to the Unruh effect and black hole physics. This work has been recognized in Brian Cox and Jeff Forshaw's latest book on black holes.
+My PhD thesis, "A Manifestly Causal Approach to Quantum Field Theory," developed new probability-level formalisms for QFT calculations and explored applications to the Unruh effect and black hole physics. I was also fortunate to comment on drafts of Brian Cox and Jeff Forshaw's latest book on black holes, and am acknowledged in the published work.
 
 ## Teaching & Outreach
 
-I'm passionate about making physics accessible and engaging. I've taught tutorials and programming courses at the University of Manchester, covering topics from first-year fundamentals to advanced Python programming. I've also tutored for SEREN (Supporting Excellence in Research in England and Northern Ireland) and provided private tutoring.
+I'm passionate about making physics accessible and engaging. I've taught tutorials and programming courses at the University of Manchester, covering topics from first-year fundamentals to advanced Python programming. I've also tutored for [Seren](https://equaleducationpartners.com/seren-programme/) – Wales' flagship higher education access programme supporting more able and talented learners – and provided private tutoring.
 
-My commitment to science communication extends beyond the classroom. I've given talks internationally, including presentations in Lisbon and the UAE, and I'm a pundit for [LazyFPL](https://www.lazyfpl.com/), where I contribute analysis on Fantasy Premier League strategy. I was also the winner of the Manchester round of the Vitae 3-Minute Thesis competition, demonstrating my ability to communicate complex research to broad audiences.
+My commitment to science communication extends beyond the classroom. I've given talks internationally, including presentations in Lisbon and the UAE, and I was the winner of the Manchester round of the Vitae 3-Minute Thesis competition, demonstrating my ability to communicate complex research to broad audiences.
 
 ## Beyond Physics
 
-When I'm not thinking about quantum fields and qubits, you'll find me playing football, padel, or pool, or analyzing Fantasy Premier League statistics. I'm a Manchester United supporter and enjoy the strategic thinking required in poker. These activities keep me balanced and often provide unexpected insights that inform my research approach.
+When I'm not thinking about quantum fields, I'm usually on a pitch or at a table. I play a lot of football, padel, and pool, and I'm a Manchester United supporter. I enjoy poker for the strategic thinking it demands, and I'm something of a Fantasy Premier League obsessive – I even contribute as a pundit for [LazyFPL](https://www.lazyfpl.com/), where I share analysis and tips with their readers. These hobbies keep me grounded and, perhaps surprisingly, often spark ideas that find their way back into how I think about physics.
 
 ## Collaboration
 
@@ -40,8 +42,8 @@ I'm always interested in collaborating across quantum information, high-energy t
 
 ---
 
-<div style="margin-top: 3rem; padding: 2rem; background: rgba(0,0,0,0.02); border-radius: 1rem;">
-  <h3 style="margin-top: 0;">Contact</h3>
+<div class="about-contact">
+  <h3>Contact</h3>
   <p>
     <strong>Academic email:</strong> <a href="mailto:ross.jenkinson@manchester.ac.uk">ross.jenkinson@manchester.ac.uk</a><br>
     <strong>Personal email:</strong> <a href="mailto:rjenkinson@outlook.com">rjenkinson@outlook.com</a><br>

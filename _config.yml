@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ross Jenkinson"
 title_separator          : "-"
 name                     : &name "Ross Jenkinson"
@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo1.jpg"
+  avatar           : "profile-sidebar.png"
   name             : "Ross Jenkinson"
   pronouns         : # example: "she/her"  
   bio              : "Theoretical physicist studying quantum information, quantum field theory, and their applications to quantum technologies."
@@ -85,12 +85,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  thesis:
+    title: 'Thesis'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Journal Articles'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
