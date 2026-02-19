@@ -1,0 +1,156 @@
+/* Custom modern styling for rossjenkinson.com */
+
+/* Home page layout */
+.page--home .page__inner-wrap {
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero__text {
+  flex: 2 1 260px;
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hero__title {
+  font-size: clamp(2.2rem, 3.4vw, 3rem);
+  line-height: 1.1;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.hero__subtitle {
+  font-size: 1.05rem;
+  max-width: 34rem;
+  margin-bottom: 1.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero__eyebrow {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.hero__photo {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__photo img {
+  width: 220px;
+  max-width: 100%;
+  border-radius: 999px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+  object-fit: cover;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero__meta {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Card grid */
+.section-cards {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.section-card {
+  border-radius: 1rem;
+  padding: 1.4rem 1.5rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(251, 245, 255, 0.9));
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.section-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(129, 140, 248, 0.18), transparent 55%);
+  pointer-events: none;
+}
+
+.section-card h2 {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
+
+.section-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-card a.section-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .section-card {
+    background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), rgba(15, 23, 42, 0.95));
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Simple pill-style social buttons */
+.hero-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.btn-pill i {
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn-pill {
+    border-color: rgba(148, 163, 184, 0.6);
+  }
+}
+
+/* CV download buttons */
+.cv-download-links {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
