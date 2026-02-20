@@ -12,7 +12,7 @@ redirect_from:
   <img src="{{ base_path }}/images/photo4.jpg" alt="Ross Jenkinson" class="about-photo about-photo--tertiary">
 </div>
 
-I am a postdoctoral researcher in theoretical physics at the University of Manchester, where I completed my PhD under the supervision of Prof. Brian Cox and Prof. Jeff Forshaw. I did my undergraduate degree at the University of Oxford, where I specialised in quantum information and particle physics before moving to Manchester for my doctoral research. My work sits at the intersection of quantum information theory, quantum field theory, and quantum technologies – exploring how fundamental physics principles can inform and be simulated on quantum computers.
+I am a postdoctoral researcher in theoretical physics at the University of Manchester, where I completed my PhD under the supervision of Prof. Brian Cox and Prof. Jeff Forshaw. I did my undergraduate Masters degree (MPhys) at the University of Oxford, where I specialised in quantum information and particle physics before moving to Manchester for my doctoral research. My current research sits at the intersection of quantum computing, quantum field theory, and Artificial Intelligence – exploring how fundamental physics systems can be simulated on quantum computers, and the role of AI in new physics discoveries.
 
 ## Research
 
@@ -34,7 +34,7 @@ My commitment to science communication extends beyond the classroom. I've given 
 
 ## Beyond Physics
 
-When I'm not thinking about quantum fields, I'm usually on a pitch or at a table. I play a lot of football, padel, and pool, and I'm a Manchester United supporter. I enjoy poker for the strategic thinking it demands, and I'm something of a Fantasy Premier League obsessive – I even contribute as a pundit for [LazyFPL](https://www.lazyfpl.com/), where I share analysis and tips with their readers. These hobbies keep me grounded and, perhaps surprisingly, often spark ideas that find their way back into how I think about physics.
+When I'm not thinking about quantum physics, I play a lot of football, padel, and pool. I enjoy card/board/strategy games, and I'm something of a Fantasy Premier League obsessive – I even contribute as a pundit for [LazyFPL](https://www.lazyfpl.com/), where I share analysis and tips with their readers. I'm always happy to chat about any of these things, too!
 
 ## Collaboration
 
