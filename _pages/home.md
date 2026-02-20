@@ -14,11 +14,11 @@ author_profile: false
   <div class="hero__content">
     <div class="hero__text">
       <p class="hero__eyebrow">Theoretical physicist · Postdoctoral researcher</p>
-      <h1 class="hero__title">Quantum information, field theory, and the future of quantum technologies.</h1>
+      <h1 class="hero__title">Quantum Computing, Field Theory, and the role of AI in Theoretical Physics.</h1>
       <p class="hero__subtitle">
         I study quantum information theory and quantum field theory, exploring how fundamental physics connects to quantum computing. 
         My research spans qubit simulations of quantum field theory, causality in QFT, and quantum information in curved spacetime – 
-        bridging theoretical foundations with practical quantum technologies.
+        including the quantum properties of black holes. I am also researching the role of Artifical Intelligence in theoretical physics; will this powerful new tool change the way we discover Nature's secrets?
       </p>
 
       <div class="hero__actions">
@@ -88,8 +88,7 @@ author_profile: false
   <article class="section-card">
     <h2>About me</h2>
     <p>
-      A short overview of my background, current position, and broader research story – from quantum
-      field theory to quantum technologies.
+      A short overview of my background, current position, and broader research story – from Oxford to Manchester.
     </p>
     <a class="section-link" href="{{ base_path }}/about/">Read more</a>
   </article>
