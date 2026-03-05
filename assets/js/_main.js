@@ -140,4 +140,31 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
+  // ----------------------------------------------------------------
+  // Scroll-triggered animations via IntersectionObserver
+  // ----------------------------------------------------------------
+  if ('IntersectionObserver' in window) {
+    const scrollElements = document.querySelectorAll('.animate-on-scroll');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target); // only animate once
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px',
+      }
+    );
+    scrollElements.forEach((el) => observer.observe(el));
+  } else {
+    // Fallback: just show everything immediately
+    document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+      el.classList.add('is-visible');
+    });
+  }
+
 });

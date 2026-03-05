@@ -9,21 +9,19 @@ author_profile: false
 {% include base_path %}
 
 <section class="hero hero--with-bg">
-  <div class="hero__bg-image" style="background-image: url('{{ base_path }}/images/photo1.jpg');"></div>
+  <div class="hero__bg-image" style="background-image: url('{{ base_path }}/images/portrait-building.jpg');"></div>
   <div class="hero__overlay"></div>
   <div class="hero__content">
     <div class="hero__text">
       <p class="hero__eyebrow">Theoretical physicist · Postdoctoral researcher</p>
-      <h1 class="hero__title">Quantum Computing, Field Theory, and the role of AI in Theoretical Physics.</h1>
+      <h1 class="hero__title">Quantum fields, black holes, and the future of computing.</h1>
       <p class="hero__subtitle">
-        I study quantum information theory and quantum field theory, exploring how fundamental physics connects to quantum computing. 
-        My research spans qubit simulations of quantum field theory, causality in QFT, and quantum information in curved spacetime – 
-        including the quantum properties of black holes. I am also researching the role of Artifical Intelligence in theoretical physics; will this powerful new tool change the way we discover Nature's secrets?
+        I'm a postdoc at the University of Manchester exploring the deep connections between quantum field theory and quantum computing. My research spans causal approaches to particle scattering, the quantum properties of black holes, and how AI might transform the way we uncover the laws of nature.
       </p>
 
       <div class="hero__actions">
-        <a class="btn btn--primary" href="{{ base_path }}/publications/">View publications</a>
-        <a class="btn btn--inverse" href="{{ base_path }}/cv/">Download CV</a>
+        <a class="btn btn--primary" href="{{ base_path }}/publications/">Publications</a>
+        <a class="btn btn--inverse" href="{{ base_path }}/cv/">Curriculum Vitae</a>
       </div>
 
       <p class="hero__meta">
@@ -33,11 +31,7 @@ author_profile: false
       <div class="hero-social">
         <a class="btn-pill" href="mailto:ross.jenkinson@manchester.ac.uk">
           <i class="fa-solid fa-envelope"></i>
-          <span>Academic Email</span>
-        </a>
-        <a class="btn-pill" href="mailto:rjenkinson@outlook.com">
-          <i class="fa-solid fa-envelope"></i>
-          <span>Personal Email</span>
+          <span>Email</span>
         </a>
         {% if site.author.inspire-hep %}
         <a class="btn-pill" href="{{ site.author.inspire-hep }}" target="_blank" rel="noopener">
@@ -79,16 +73,16 @@ author_profile: false
     </div>
 
     <div class="hero__photo">
-      <img src="{{ base_path }}/images/photo1.jpg" alt="Photo of Ross Jenkinson" loading="eager">
+      <img src="{{ base_path }}/images/speaking-stage.jpg" alt="Ross Jenkinson speaking at a conference in the Middle East" loading="eager">
     </div>
   </div>
 </section>
 
-<section class="section-cards">
+<section class="section-cards animate-on-scroll">
   <article class="section-card">
-    <h2>About me</h2>
+    <h2>About</h2>
     <p>
-      A short overview of my background, current position, and broader research story – from Oxford to Manchester.
+      From Oxford to Manchester — my path through quantum physics, the people I work with, and what drives my research.
     </p>
     <a class="section-link" href="{{ base_path }}/about/">Read more</a>
   </article>
@@ -96,19 +90,31 @@ author_profile: false
   <article class="section-card">
     <h2>Publications</h2>
     <p>
-      Peer‑reviewed work spanning quantum field theory, curved space‑time, and quantum information, with
-      links to arXiv and journal versions where available.
+      Peer-reviewed papers on causal quantum field theory, the Unruh effect, and particle scattering — with links to arXiv and journals.
     </p>
-    <a class="section-link" href="{{ base_path }}/publications/">Browse publications</a>
+    <a class="section-link" href="{{ base_path }}/publications/">Browse</a>
   </article>
 
   <article class="section-card">
     <h2>CV</h2>
     <p>
-      A concise overview of my academic path, teaching, and service, plus a downloadable PDF for
-      applications and reference.
+      Education, research experience, talks, teaching, and awards — plus a downloadable PDF.
     </p>
-    <a class="section-link" href="{{ base_path }}/cv/">Open CV</a>
+    <a class="section-link" href="{{ base_path }}/cv/">View CV</a>
   </article>
 </section>
 
+<section class="photo-gallery animate-on-scroll" style="margin-top: 3rem;">
+  <div class="photo-gallery__item photo-gallery__item--wide">
+    <img class="photo-gallery__img" src="{{ base_path }}/images/with-brian-lounge.jpg" alt="Ross Jenkinson with Prof. Brian Cox" loading="lazy" style="height: 320px;">
+    <div class="photo-gallery__caption">With Prof. Brian Cox at the University of Manchester</div>
+  </div>
+  <div class="photo-gallery__item">
+    <img class="photo-gallery__img" src="{{ base_path }}/images/portrait-lab.jpg" alt="Ross Jenkinson in the physics lab" loading="lazy">
+    <div class="photo-gallery__caption">In the teaching labs</div>
+  </div>
+  <div class="photo-gallery__item">
+    <img class="photo-gallery__img" src="{{ base_path }}/images/speaking-fireside.jpg" alt="Ross Jenkinson at a fireside chat in the Middle East" loading="lazy">
+    <div class="photo-gallery__caption">Fireside chat at a campaign launch in the UAE</div>
+  </div>
+</section>
