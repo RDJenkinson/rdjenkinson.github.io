@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ross Jenkinson"
+title: "Home"
 layout: single
 classes: page--home
 author_profile: false
@@ -13,10 +13,10 @@ author_profile: false
   <div class="hero__overlay"></div>
   <div class="hero__content">
     <div class="hero__text">
-      <p class="hero__eyebrow">Theoretical physicist · Postdoctoral researcher</p>
+      <p class="hero__eyebrow">Theoretical physicist // Postdoctoral researcher</p>
       <h1 class="hero__title">Quantum fields, black holes, and the future of computing.</h1>
       <p class="hero__subtitle">
-        I'm a postdoc at the University of Manchester exploring the deep connections between quantum field theory and quantum computing. My research spans causal approaches to particle scattering, the quantum properties of black holes, and how AI might transform the way we uncover the laws of nature.
+        I'm a postdoc at the University of Manchester working on the connections between quantum field theory and quantum computing. My research covers causal approaches to particle scattering, quantum properties of black holes, and the potential for AI to change how we do theoretical physics.
       </p>
 
       <div class="hero__actions">
@@ -25,7 +25,7 @@ author_profile: false
       </div>
 
       <p class="hero__meta">
-        Postdoctoral Researcher · University of Manchester
+        Postdoctoral Researcher, University of Manchester
       </p>
 
       <div class="hero-social">
@@ -82,7 +82,7 @@ author_profile: false
   <article class="section-card">
     <h2>About</h2>
     <p>
-      From Oxford to Manchester — my path through quantum physics, the people I work with, and what drives my research.
+      My path through quantum physics, from Oxford to Manchester, and the people and ideas that shape my research.
     </p>
     <a class="section-link" href="{{ base_path }}/about/">Read more</a>
   </article>
@@ -90,7 +90,7 @@ author_profile: false
   <article class="section-card">
     <h2>Publications</h2>
     <p>
-      Peer-reviewed papers on causal quantum field theory, the Unruh effect, and particle scattering — with links to arXiv and journals.
+      Papers on causal quantum field theory, the Unruh effect, and particle scattering, with links to arXiv and journals.
     </p>
     <a class="section-link" href="{{ base_path }}/publications/">Browse</a>
   </article>
@@ -98,7 +98,7 @@ author_profile: false
   <article class="section-card">
     <h2>CV</h2>
     <p>
-      Education, research experience, talks, teaching, and awards — plus a downloadable PDF.
+      Education, research experience, talks, teaching, awards, and a downloadable PDF.
     </p>
     <a class="section-link" href="{{ base_path }}/cv/">View CV</a>
   </article>

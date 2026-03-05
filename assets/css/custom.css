@@ -317,6 +317,11 @@ code {
    4. HERO SECTION (homepage)
    ---------------------------------------------------------------------------- */
 
+/* Hide the default page title on the homepage */
+.page--home .page__title {
+  display: none;
+}
+
 .page--home .page__inner-wrap {
   padding-top: 0;
   padding-bottom: var(--space-3xl);
