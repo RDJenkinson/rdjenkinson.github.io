@@ -34,7 +34,7 @@ I enjoy making physics accessible and engaging. At Manchester I've taught tutori
 
 I've presented internationally, including talks in Lisbon and a fireside chat at a major campaign launch in the UAE. I was the winner of the Manchester round of the **Vitae 3-Minute Thesis** competition, distilling my entire PhD into a three-minute talk for a general audience.
 
-<div class="photo-gallery animate-on-scroll" style="margin: 2rem 0;">
+<div class="photo-gallery" style="margin: 2rem 0;">
   <div class="photo-gallery__item">
     <img class="photo-gallery__img" src="{{ base_path }}/images/speaking-stage.jpg" alt="Ross Jenkinson speaking on stage in the Middle East" loading="lazy">
     <div class="photo-gallery__caption">Speaking at a campaign launch in the UAE</div>

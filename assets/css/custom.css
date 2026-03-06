@@ -410,6 +410,7 @@ code {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
 }
 
 .hero__eyebrow::before {
@@ -428,14 +429,16 @@ code {
   letter-spacing: -0.035em;
   margin: 0.3rem 0 0.8rem;
   color: var(--color-heading, var(--global-text-color));
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.7);
 }
 
 .hero__subtitle {
   font-size: 1.08rem;
   line-height: 1.7;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   max-width: 36rem;
   margin-bottom: var(--space-lg);
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
 }
 
 .hero__photo {
@@ -467,6 +470,13 @@ code {
   border-color: rgba(99, 102, 241, 0.15);
 }
 
+[data-theme="dark"] .hero__eyebrow,
+[data-theme="dark"] .hero__title,
+[data-theme="dark"] .hero__subtitle,
+[data-theme="dark"] .hero__meta {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9), 0 0 20px rgba(10, 15, 30, 0.6);
+}
+
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
@@ -476,9 +486,10 @@ code {
 
 .hero__meta {
   font-size: 0.88rem;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   opacity: 0.85;
   letter-spacing: -0.01em;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
 }
 
 
