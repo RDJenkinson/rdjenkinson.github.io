@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Home"
 layout: single
 classes: page--home
 author_profile: false
