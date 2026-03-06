@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <div class="about-photos">
-  <img src="{{ base_path }}/images/portrait-building.jpg" alt="Ross Jenkinson at the University of Manchester" class="about-photo about-photo--main">
+  <img src="{{ base_path }}/images/with-brian-lounge.jpg" alt="Ross Jenkinson with Prof. Brian Cox" class="about-photo about-photo--main">
   <img src="{{ base_path }}/images/with-brian-lab.jpg" alt="Ross Jenkinson with Prof. Brian Cox in the lab" class="about-photo about-photo--secondary">
   <img src="{{ base_path }}/images/speaking-wide.jpg" alt="Ross Jenkinson speaking at a conference" class="about-photo about-photo--tertiary">
 </div>
