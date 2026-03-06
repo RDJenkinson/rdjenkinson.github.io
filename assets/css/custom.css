@@ -1211,8 +1211,9 @@ a.section-link:hover::after {
   .hero__overlay {
     background: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.92) 30%,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.5) 25%,
+      rgba(255, 255, 255, 0.92) 45%,
       rgba(255, 255, 255, 0.98) 100%
     );
   }
@@ -1220,8 +1221,9 @@ a.section-link:hover::after {
   [data-theme="dark"] .hero__overlay {
     background: linear-gradient(
       180deg,
-      rgba(10, 15, 30, 0.4) 0%,
-      rgba(10, 15, 30, 0.92) 30%,
+      rgba(10, 15, 30, 0.15) 0%,
+      rgba(10, 15, 30, 0.5) 25%,
+      rgba(10, 15, 30, 0.92) 45%,
       rgba(10, 15, 30, 0.98) 100%
     );
   }
