@@ -47,7 +47,7 @@ I've presented internationally, including talks in Lisbon and a fireside chat at
 
 ## Beyond Physics
 
-When I'm not thinking about quantum fields, I play a lot of football, padel, and pool. I'm always up for card games, and I love a chat in the pub. I'm also something of a Fantasy Premier League obsessive: I contribute as a pundit for [LazyFPL](https://www.lazyfpl.com/), sharing analysis and tips with their readership.
+When I'm not thinking about quantum fields, I play a lot of football, padel, and pool. I love all things competitive, but I'm also always up for a chat in the pub. I'm also something of a Fantasy Premier League obsessive: I contribute as a pundit for [LazyFPL](https://www.lazyfpl.com/), sharing analysis and tips with their readership.
 
 ## Get in Touch
 
