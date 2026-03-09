@@ -15,7 +15,7 @@ author_profile: false
       <p class="hero__eyebrow">Theoretical physicist // Postdoctoral researcher</p>
       <h1 class="hero__title">Quantum fields, black holes, and the future of computing.</h1>
       <p class="hero__subtitle">
-        I'm a postdoc at the University of Manchester working on the connections between quantum field theory and quantum computing. My research covers causal approaches to particle scattering, quantum properties of black holes, and the potential for AI to change how we do theoretical physics.
+        I'm a postdoctoral researcher at the University of Manchester working on the connections between quantum field theory and quantum computing. My research covers causal approaches to particle scattering, quantum properties of black holes, and the potential for AI to change how we do theoretical physics.
       </p>
 
       <div class="hero__actions">
