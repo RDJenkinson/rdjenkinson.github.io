@@ -1,16 +1,326 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Outreach"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talks-accordion details {
+    margin-bottom: 1em;
+    border: 1px solid var(--border-color, #e1e4e8);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--background-color, #fff);
+  }
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  .talks-accordion summary {
+    padding: 1em 1.25em;
+    font-size: 1.15em;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: var(--masthead-menu-border-color, #f6f8fa);
+    transition: background 0.2s ease;
+    user-select: none;
+  }
 
-{% endif %}
+  .talks-accordion summary::-webkit-details-marker { display: none; }
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  .talks-accordion summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s ease;
+    font-size: 0.85em;
+  }
+
+  .talks-accordion details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  .talks-accordion summary:hover {
+    background: var(--link-color-visited, #e8ecf0);
+  }
+
+  .talks-accordion .accordion-body {
+    padding: 1.25em;
+  }
+
+  .talk-entry {
+    padding: 1.25em 0;
+    border-bottom: 1px solid var(--border-color, #e1e4e8);
+  }
+
+  .talk-entry:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .talk-entry:first-child {
+    padding-top: 0;
+  }
+
+  .talk-entry h3 {
+    margin: 0 0 0.15em 0;
+    font-size: 1.05em;
+    color: var(--text-color, #24292e);
+  }
+
+  .talk-date {
+    display: inline-block;
+    font-size: 0.85em;
+    color: var(--text-color-muted, #586069);
+    margin-bottom: 0.75em;
+  }
+
+  .talk-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    margin-top: 0.75em;
+  }
+
+  .talk-images img {
+    border-radius: 6px;
+    max-height: 220px;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  .talk-links {
+    margin-top: 0.5em;
+  }
+
+  .talk-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    margin-right: 1em;
+    font-size: 0.9em;
+  }
+
+  .conf-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .conf-list li {
+    padding: 0.6em 0;
+    border-bottom: 1px solid var(--border-color, #e1e4e8);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5em;
+  }
+
+  .conf-list li:last-child {
+    border-bottom: none;
+  }
+
+  .conf-name {
+    font-weight: 500;
+  }
+
+  .conf-location {
+    color: var(--text-color-muted, #586069);
+    font-size: 0.9em;
+  }
+
+  .coming-soon {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: var(--link-color, #3b82f6);
+    background: var(--masthead-menu-border-color, #eff6ff);
+    padding: 0.15em 0.5em;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 600px) {
+    .talk-images img {
+      max-height: 160px;
+    }
+  }
+</style>
+
+<div class="talks-accordion">
+
+  <!-- ═══════════════════════════════════════════════
+       OUTREACH
+       ═══════════════════════════════════════════════ -->
+  <details open>
+    <summary>Outreach</summary>
+    <div class="accordion-body">
+
+      <div class="talk-entry">
+        <h3>Pint of Science, Manchester – 'The Modern Quantum Revolution'</h3>
+        <span class="talk-date">May 2026</span>
+        <div class="talk-images">
+          <img src="/images/talks/pint-of-science-1.jpg" alt="Pint of Science talk 1">
+          <img src="/images/talks/pint-of-science-2.jpg" alt="Pint of Science talk 2">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>Cosmic Titans Exhibition Launch, Jodrell Bank – 'Quantum Computing and the Universe'</h3>
+        <span class="talk-date">May 2026</span>
+        <div class="talk-images">
+          <img src="/images/talks/cosmic-titans-1.jpg" alt="Cosmic Titans exhibition 1">
+          <img src="/images/talks/cosmic-titans-2.jpg" alt="Cosmic Titans exhibition 2">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>University of Manchester Particle Physics Schools Masterclass</h3>
+        <span class="talk-date">April 2026</span>
+        <div class="talk-images">
+          <img src="/images/talks/masterclass-1.jpg" alt="Particle Physics Masterclass 1">
+          <img src="/images/talks/masterclass-2.jpg" alt="Particle Physics Masterclass 2">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>University of Manchester Global Strategy Launch, Dubai – 'Fireside Chat with Dr Ross Jenkinson'</h3>
+        <span class="talk-date">December 2025</span>
+        <div class="talk-images">
+          <img src="/images/talks/dubai-fireside-1.jpg" alt="Dubai Fireside Chat 1">
+          <img src="/images/talks/dubai-fireside-2.jpg" alt="Dubai Fireside Chat 2">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>University of Manchester Global Strategy Launch, Manchester</h3>
+        <span class="talk-date">November 2025</span>
+        <div class="talk-links">
+          <a href="https://www.youtube.com/watch?v=dLfN8gL_2qg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube"></i> Watch on YouTube
+          </a>
+          <a href="https://www.youtube.com/watch?v=ZXoHdYKeH5w" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube"></i> Watch on YouTube
+          </a>
+        </div>
+        <div class="talk-images">
+          <img src="/images/talks/global-strategy-manchester-1.jpg" alt="Global Strategy Manchester 1">
+          <img src="/images/talks/global-strategy-manchester-2.jpg" alt="Global Strategy Manchester 2">
+          <img src="/images/talks/global-strategy-manchester-3.jpg" alt="Global Strategy Manchester 3">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>Future of Research Dinner for Donors, The Royal Institution</h3>
+        <span class="talk-date">March 2025</span>
+        <div class="talk-images">
+          <img src="/images/talks/royal-institution.jpg" alt="Royal Institution dinner">
+        </div>
+      </div>
+
+      <div class="talk-entry">
+        <h3>Visit to Callsign, Abu Dhabi – 'Quantum Information'</h3>
+        <span class="talk-date">December 2024</span>
+        <div class="talk-images">
+          <img src="/images/talks/callsign-abudhabi-1.jpg" alt="Callsign Abu Dhabi 1">
+          <img src="/images/talks/callsign-abudhabi-2.jpg" alt="Callsign Abu Dhabi 2">
+        </div>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ═══════════════════════════════════════════════
+       PODCAST APPEARANCES
+       ═══════════════════════════════════════════════ -->
+  <details open>
+    <summary>Podcast Appearances</summary>
+    <div class="accordion-body">
+
+      <div class="talk-entry">
+        <h3>Ri Science <span class="coming-soon">Coming soon</span></h3>
+        <span class="talk-date">July 2026</span>
+      </div>
+
+      <div class="talk-entry">
+        <h3>PhysicsWorld Weekly <span class="coming-soon">Coming soon</span></h3>
+        <span class="talk-date">June 2026</span>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ═══════════════════════════════════════════════
+       CONFERENCES
+       ═══════════════════════════════════════════════ -->
+  <details open>
+    <summary>Conferences</summary>
+    <div class="accordion-body">
+      <ul class="conf-list">
+        <li>
+          <span class="talk-date">Jan 2026</span>
+          <span class="conf-name">Quantum Technologies for Fundamental Physics</span>
+          <span class="conf-location">Manchester</span>
+        </li>
+        <li>
+          <span class="talk-date">Dec 2025</span>
+          <span class="conf-name">Annual Theory Meeting</span>
+          <span class="conf-location">Durham</span>
+        </li>
+        <li>
+          <span class="talk-date">Dec 2024</span>
+          <span class="conf-name">Annual Theory Meeting</span>
+          <span class="conf-location">Durham</span>
+        </li>
+        <li>
+          <span class="talk-date">Nov 2024</span>
+          <span class="conf-name">UKQFT XII</span>
+          <span class="conf-location">London</span>
+        </li>
+        <li>
+          <span class="talk-date">Aug 2024</span>
+          <span class="conf-name">QFT in Curved Spacetime</span>
+          <span class="conf-location">Lisbon</span>
+        </li>
+        <li>
+          <span class="talk-date">Dec 2023</span>
+          <span class="conf-name">Young Theorists Forum</span>
+          <span class="conf-location">Durham</span>
+        </li>
+        <li>
+          <span class="talk-date">Dec 2023</span>
+          <span class="conf-name">Annual Theory Meeting</span>
+          <span class="conf-location">Durham</span>
+        </li>
+        <li>
+          <span class="talk-date">Jan 2023</span>
+          <span class="conf-name">UKQFT XI</span>
+          <span class="conf-location">Cambridge</span>
+        </li>
+        <li>
+          <span class="talk-date">Dec 2022</span>
+          <span class="conf-name">Annual Theory Meeting</span>
+          <span class="conf-location">Durham</span>
+        </li>
+        <li>
+          <span class="talk-date">Sept 2022</span>
+          <span class="conf-name">BUSSTEPP</span>
+          <span class="conf-location">London</span>
+        </li>
+        <li>
+          <span class="talk-date">Apr 2022</span>
+          <span class="conf-name">IoP HEPP</span>
+          <span class="conf-location">Oxford</span>
+        </li>
+        <li>
+          <span class="talk-date">Jan 2022</span>
+          <span class="conf-name">Lepton Photon</span>
+          <span class="conf-location">Manchester</span>
+        </li>
+      </ul>
+    </div>
+  </details>
+
+</div>

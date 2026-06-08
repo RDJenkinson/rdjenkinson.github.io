@@ -117,6 +117,9 @@
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key icon-pad-right" aria-hidden="true"></i>Keybase</a></li>
       {% endif %}
+      {% if author.tiktok %}
+        <li><a href="https://www.tiktok.com/@{{ author.tiktok }}"><i class="fab fa-fw fa-tiktok icon-pad-right" aria-hidden="true"></i>TikTok</a></li>
+      {% endif %}
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a></li>
       {% endif %}      

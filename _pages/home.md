@@ -62,6 +62,12 @@ author_profile: false
           <span>X</span>
         </a>
         {% endif %}
+        {% if site.author.tiktok %}
+        <a class="btn-pill" href="https://www.tiktok.com/@{{ site.author.tiktok }}" target="_blank" rel="noopener">
+          <i class="fa-brands fa-tiktok"></i>
+          <span>TikTok</span>
+        </a>
+        {% endif %}
         {% if site.author.instagram %}
         <a class="btn-pill" href="https://instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener">
           <i class="fa-brands fa-instagram"></i>
