@@ -8,10 +8,10 @@ author_profile: true
 <style>
   .talks-accordion details {
     margin-bottom: 1em;
-    border: 1px solid var(--border-color, #e1e4e8);
+    border: 1px solid var(--global-border-color, #e2e8f0);
     border-radius: 8px;
     overflow: hidden;
-    background: var(--background-color, #fff);
+    background: var(--global-bg-color, #fff);
   }
 
   .talks-accordion summary {
@@ -23,7 +23,8 @@ author_profile: true
     display: flex;
     align-items: center;
     gap: 0.5em;
-    background: var(--masthead-menu-border-color, #f6f8fa);
+    background: var(--global-code-background-color, #f1f5f9);
+    color: var(--global-text-color, #334155);
     transition: background 0.2s ease;
     user-select: none;
   }
@@ -42,7 +43,7 @@ author_profile: true
   }
 
   .talks-accordion summary:hover {
-    background: var(--link-color-visited, #e8ecf0);
+    background: var(--global-thead-color, #e8ecf0);
   }
 
   .talks-accordion .accordion-body {
@@ -51,7 +52,7 @@ author_profile: true
 
   .talk-entry {
     padding: 1.25em 0;
-    border-bottom: 1px solid var(--border-color, #e1e4e8);
+    border-bottom: 1px solid var(--global-border-color, #e2e8f0);
   }
 
   .talk-entry:last-child {
@@ -66,13 +67,13 @@ author_profile: true
   .talk-entry h3 {
     margin: 0 0 0.15em 0;
     font-size: 1.05em;
-    color: var(--text-color, #24292e);
+    color: var(--global-text-color, #334155);
   }
 
   .talk-date {
     display: inline-block;
     font-size: 0.85em;
-    color: var(--text-color-muted, #586069);
+    color: var(--global-text-color-light, #64748b);
     margin-bottom: 0.75em;
   }
 
@@ -111,7 +112,7 @@ author_profile: true
 
   .conf-list li {
     padding: 0.6em 0;
-    border-bottom: 1px solid var(--border-color, #e1e4e8);
+    border-bottom: 1px solid var(--global-border-color, #e2e8f0);
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -124,10 +125,11 @@ author_profile: true
 
   .conf-name {
     font-weight: 500;
+    color: var(--global-text-color, #334155);
   }
 
   .conf-location {
-    color: var(--text-color-muted, #586069);
+    color: var(--global-text-color-light, #64748b);
     font-size: 0.9em;
   }
 
@@ -135,8 +137,8 @@ author_profile: true
     display: inline-block;
     font-size: 0.75em;
     font-weight: 600;
-    color: var(--link-color, #3b82f6);
-    background: var(--masthead-menu-border-color, #eff6ff);
+    color: var(--global-link-color, #6366f1);
+    background: var(--global-code-background-color, #f1f5f9);
     padding: 0.15em 0.5em;
     border-radius: 4px;
     vertical-align: middle;
@@ -154,7 +156,7 @@ author_profile: true
   <!-- ═══════════════════════════════════════════════
        OUTREACH
        ═══════════════════════════════════════════════ -->
-  <details open>
+  <details>
     <summary>Outreach</summary>
     <div class="accordion-body">
 
@@ -235,7 +237,7 @@ author_profile: true
   <!-- ═══════════════════════════════════════════════
        PODCAST APPEARANCES
        ═══════════════════════════════════════════════ -->
-  <details open>
+  <details>
     <summary>Podcast Appearances</summary>
     <div class="accordion-body">
 
@@ -255,7 +257,7 @@ author_profile: true
   <!-- ═══════════════════════════════════════════════
        CONFERENCES
        ═══════════════════════════════════════════════ -->
-  <details open>
+  <details>
     <summary>Conferences</summary>
     <div class="accordion-body">
       <ul class="conf-list">
