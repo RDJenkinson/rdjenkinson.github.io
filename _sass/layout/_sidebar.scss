@@ -141,11 +141,10 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 
   @include breakpoint($large) {
     display: block;
@@ -164,11 +163,7 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
+  line-height: 1.3;
 
   @include breakpoint($large) {
     display: block;
@@ -209,6 +204,7 @@
 
 .author__bio {
   margin: 0;
+  font-size: $type-size-6;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -216,13 +212,66 @@
   }
 }
 
+/* -----------------------------------------------------------------------
+   Mobile: compact card layout for author profile (below $large)
+   ----------------------------------------------------------------------- */
+@media screen and (max-width: $large - 1px) {
+  .sidebar .author__avatar img {
+    width: 56px;
+    height: 56px;
+    max-width: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .sidebar > div[itemscope] {
+    display: flex;
+    align-items: center;
+    gap: 0.85em;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    padding: 0.85em 1em;
+    margin: 0 0 0.5em 0;
+  }
+
+  .sidebar .author__content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .sidebar .author__name {
+    font-size: 1em;
+    margin: 0 0 0.15em 0;
+  }
+
+  .sidebar .author__bio {
+    font-size: 0.78em;
+    line-height: 1.35;
+    color: var(--global-text-color-light);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  // Hide the Follow button and social links on mobile
+  .sidebar .author__urls-wrapper {
+    display: none;
+  }
+}
+
+/* -----------------------------------------------------------------------
+   Desktop: full sidebar layout (at and above $large)
+   ----------------------------------------------------------------------- */
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   cursor: pointer;
 
   li:last-child {
@@ -294,7 +343,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #fff transparent;
+    border-color: var(--global-bg-color) transparent;
     z-index: 1;
 
     @include breakpoint($large) {
