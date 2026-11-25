@@ -113,6 +113,13 @@ Feel free to get in touch – whether it's about research collaboration, outreac
 
 <div class="contact-grid">
   <div class="contact-card">
+    <i class="ai ai-google-scholar"></i>
+    <div class="contact-info">
+      <div class="contact-label">Google Scholar</div>
+      <div class="contact-value"><a href="https://scholar.google.com/citations?user=IrF5htMAAAAJ&hl=en" target="_blank" rel="noopener">Ross Jenkinson</a></div>
+    </div>
+  </div>
+  <div class="contact-card">
     <i class="ai ai-inspire"></i>
     <div class="contact-info">
       <div class="contact-label">INSPIRE-HEP</div>
