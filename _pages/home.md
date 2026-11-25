@@ -24,7 +24,7 @@ author_profile: false
       </div>
 
       <p class="hero__meta">
-        Postdoctoral Researcher, University of Manchester
+        Callsign Postdoctoral Research Associate, University of Manchester
       </p>
 
       <div class="hero-social">
